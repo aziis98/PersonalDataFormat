@@ -1,0 +1,23 @@
+<document> := <statement>*
+
+<statement> := <expression> ("\n" | ";")
+
+<expression> := <value>
+
+<value> := <symbol> | <number> | <string> | <list>
+
+<symbol> := <symbol-char>+
+
+<symbol-char> := "a" | ... | "z" | "A" | ... | "Z" | "-" | "_"
+
+<number> := <integer> | <decimal>
+
+<integer> := <digit>+
+
+<digit> := "0" | ... | "9"
+
+<decimal> := <digit>+ "." <digit>+
+
+<string> := '"' ? any-non-quote-char ? '"' 
+
+<list> := "{" <statement>* <expression>? "}"
