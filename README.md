@@ -1,4 +1,4 @@
-# PersonalDataFormat
+# Personal Data Format
 In this repo I describe my personal format for storing data
 
 There is also a EBNF file in this repo with the full definition of the format.
