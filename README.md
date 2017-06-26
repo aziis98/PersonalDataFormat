@@ -37,7 +37,7 @@ A **String** is a sequence of any char delimited by quotes.
  
 ## Lists
 
-A **List** is a **Value** delimited by curly braces (`{` and `}`) and can contain one or more expressions separeted by new lines (as sad before) or by ";".
+A **List** is a **Value** delimited by curly braces (`{` and `}`) and can contain one or more expressions separated as explained before.
 
 ### Examples
 
