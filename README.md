@@ -1,7 +1,7 @@
 # Personal Data Format
 In this repo I describe my personal format for storing data
 
-There is also a [BNF grammar](./grammar.bnf) in this repository with the full definition of the format.
+There is also a [BNF grammar (almost BNF)](./grammar.bnf) in this repository with the full definition of the format.
 
 # The Format
 
